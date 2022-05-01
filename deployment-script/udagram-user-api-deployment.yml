@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: udagram-user-api
-  namespace: project-3
   labels:
     app: udagram-user-api
 spec:
