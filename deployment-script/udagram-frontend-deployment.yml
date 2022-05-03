@@ -5,7 +5,7 @@ metadata:
   labels:
     app: udagram-frontend
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: udagram-frontend
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name:  udagram-frontend
-        image: cuongmh/udagram-frontend:v1
+        image: cuongmh/udagram-frontend:v2
         imagePullPolicy: Always  
         resources:
           requests:
